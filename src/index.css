@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: bisque;
+}
+
+.pageheader{
+  position: relative;
+  left:100px;
+  top:80px;
+}
+
+.searchbar{
+  position: relative;
+  float:right;
+  margin-right: 20px;
+  border-radius: 25px;
+  border: 2px solid #609;
+  padding: 20px; 
+  width: 200px;
+  height: 10px; 
+  right:120px
+
+}
+
+.list{
+  position: relative;
+  float:right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 60px ;
+  left : 150px;
+
+
+}
+
+.eventbutton{
+  background-color: blueviolet;
+  border-right: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.eventdesc{
+  position: relative;
+  top: 120px;
+  left:100px;
+}
+
+.reg{
+  position: relative;
+  left:100px;
+  top:120px;
+}
+
+.inputfield{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
